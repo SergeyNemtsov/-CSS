@@ -114,3 +114,6 @@
 
 </body>
 </html>
+
+# CSS
+.redtext{color: red}
