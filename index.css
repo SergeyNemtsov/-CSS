@@ -1,0 +1,29 @@
+.redtext {
+  color: red;
+}
+.cursive {
+  font-weight: bold;
+  font-style: italic;
+  background: radial-gradient(circle at 80px 40px, #dccaca, #acbd99, #7086b4);
+  padding: 5px;
+}
+.trcolor {
+  background: #c6ecd9;
+}
+
+.svet {
+  background: #fcfcfc;
+  -moz-box-shadow: 0 0 10px red;
+  -webkit-box-shadow: 0 0 10px red;
+  box-shadow: 0 0 10px red;
+}
+
+.svet2 {
+  -moz-text-shadow: 0 0 10px red;
+  -webkit-text-shadow: 0 0 10px red;
+  text-shadow: 0 0 10px red;
+}
+
+tr:hover {
+  background: #28cfed; /* Цвет фона под ссылкой */
+}
