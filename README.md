@@ -36,13 +36,15 @@
         Биологическое оружие массового уничтожения
       </h4>
     </div>
-    <div class="svet">
+    <div>
       <table style="background: #c6ecd9" border="1">
         <tbody>
           <tr>
             <td valign="top">
-              <strong style="color: red" ;> Биологическое ОМУ</strong>
-              <ul>
+              <strong style="color: rgb(219, 34, 50)" ;>
+                Биологическое ОМУ</strong
+              >
+              <ul class="svet">
                 <li style="color: #993300">
                   Впервые было использовано Соединенными Штатами в 1763 году,
                   когда британские офицеры планировали распространять одеяла с
@@ -59,11 +61,11 @@
           </tr>
           <tr>
             <td>
-              <strong style="color: red"
+              <strong style="color: blue"
                 >Существует три способа работы биологического оружия:</strong
               >
               <ul>
-                <li style="color: #993300">
+                <li style="color: #2345ed">
                   Один-контакт с кожей, два-желудочно-кишечный и три-легочный.
                   Этот тип оружия довольно опасен и прост в создании или
                   приобретении. Биологическая атака на Соединенные Штаты может
@@ -214,6 +216,7 @@
 
 
 
+
 # CSS
 .redtext {
   color: red;
@@ -229,19 +232,21 @@
 }
 
 .svet {
-  background: #fcfcfc;
-  -moz-box-shadow: 0 0 10px red;
-  -webkit-box-shadow: 0 0 10px red;
-  box-shadow: 0 0 10px red;
-}
+  background: #c6ecd9;
 
 .svet2 {
-  -moz-text-shadow: 0 0 10px red;
+  -moz-text-shadow: 0 0 10px rgb(202, 113, 113);
   -webkit-text-shadow: 0 0 10px red;
   text-shadow: 0 0 10px red;
 }
 
 tr:hover {
   background: #28cfed; /* Цвет фона под ссылкой */
+}
+
+.svet3 {
+  -moz-text-shadow: 0 0 10px rgb(158, 244, 20);
+  -webkit-text-shadow: 0 0 10px rgb(65, 34, 204);
+  text-shadow: 0 0 10px rgb(85, 32, 244);
 }
 
